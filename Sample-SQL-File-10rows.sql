@@ -1,1 +1,1 @@
-CREATE TABLE IF NOT EXISTS `cust_details` (user_id` int(11) NOT NULL AUTO_INCREMENT, `username` varchar(255) DEFAULT NULL,`first_name` varchar(50) DEFAULT NULL, PRIMARY KEY (`user_id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10001;
+CREATE TABLE Persons2(PersonID int,LastName varchar(255),FirstName varchar(255),Address varchar(255),City varchar(255));
