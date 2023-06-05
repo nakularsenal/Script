@@ -22,7 +22,7 @@
 					"scripts": [
 						{
 							"type": "Query",
-							"text": "CREATE TABLE IF NOT EXISTS `user_details` (\n  `user_id` int(11) NOT NULL AUTO_INCREMENT,\n  `username` varchar(255) DEFAULT NULL,\n  `first_name` varchar(50) DEFAULT NULL,\n  `last_name` varchar(50) DEFAULT NULL,\n  `gender` varchar(10) DEFAULT NULL,\n  `password` varchar(50) DEFAULT NULL,\n  `status` tinyint(10) DEFAULT NULL,\n  PRIMARY KEY (`user_id`)\n) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10001 ;"
+							"text": "CREATE TABLE IF NOT EXISTS `cust_details` (user_id` int(11) NOT NULL AUTO_INCREMENT, `username` varchar(255) DEFAULT NULL,`first_name` varchar(50) DEFAULT NULL, PRIMARY KEY (`user_id`)) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10001;\\r\\n"
 						}
 					],
 					"scriptBlockExecutionTimeout": "02:00:00"
