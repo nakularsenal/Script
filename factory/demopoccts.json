@@ -1,0 +1,9 @@
+{
+	"name": "demopoccts",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "438f76c6-55da-4480-8e5c-74bda898b57a",
+		"tenantId": "bd1a8203-6714-4e9c-b54f-8d5582cbe59d"
+	}
+}
