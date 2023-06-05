@@ -15,7 +15,7 @@
 				},
 				"userProperties": [],
 				"typeProperties": {
-					"url": "https://raw.githubusercontent.com/nakularsenal/Script/dev/Sample-SQL-File-10rows.sql",
+					"url": "https://raw.githubusercontent.com/nakularsenal/Script/dev/Sample-SQL-File-100-Rows.sql",
 					"method": "GET"
 				}
 			},
