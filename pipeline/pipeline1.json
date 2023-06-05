@@ -1,0 +1,34 @@
+{
+	"name": "pipeline1",
+	"properties": {
+		"activities": [
+			{
+				"name": "Script1",
+				"type": "Script",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"linkedServiceName": {
+					"referenceName": "AzureSqlDatabase1",
+					"type": "LinkedServiceReference"
+				},
+				"typeProperties": {
+					"scripts": [
+						{
+							"type": "Query",
+							"text": "CREATE TABLE IF NOT EXISTS `user_details` (\n  `user_id` int(11) NOT NULL AUTO_INCREMENT,\n  `username` varchar(255) DEFAULT NULL,\n  `first_name` varchar(50) DEFAULT NULL,\n  `last_name` varchar(50) DEFAULT NULL,\n  `gender` varchar(10) DEFAULT NULL,\n  `password` varchar(50) DEFAULT NULL,\n  `status` tinyint(10) DEFAULT NULL,\n  PRIMARY KEY (`user_id`)\n) ENGINE=MyISAM  DEFAULT CHARSET=latin1 AUTO_INCREMENT=10001 ;"
+						}
+					],
+					"scriptBlockExecutionTimeout": "02:00:00"
+				}
+			}
+		],
+		"annotations": []
+	}
+}
